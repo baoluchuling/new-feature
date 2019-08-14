@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface ViewController () <UITableViewDelegate
+//, UITableViewDataSource
+>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) UITableViewDiffableDataSource *diffableDataSource;
